@@ -49,7 +49,7 @@ const Contact = () => {
         <motion.form
           variants={slideIn('left', '', 0, 1)}
           onSubmit={handleSubmit}
-          action="https://formspree.io/f/mgeqgkdd"
+          action="https://formspree.io/f/xovagwew"
           method="post"
           className={style.form_container}
         >
