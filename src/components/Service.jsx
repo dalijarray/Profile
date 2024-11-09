@@ -10,9 +10,9 @@ import { services } from '../constants';
 const Service = () => (
   <div className={style.container}>
     <motion.h1 variants={textVariant()} className={style.title}>
-      My Services
+     Community Engagement
     </motion.h1>
-    <motion.p variants={fadeIn('', '', 0.15, 1)} className={style.subtitle}>What I can do for you -</motion.p>
+    <motion.p variants={fadeIn('', '', 0.15, 1)} className={style.subtitle}></motion.p>
     <div className={style.card_container}>
         {/* Services card */}
         {services.map((service, index) => (
@@ -26,7 +26,7 @@ const Service = () => (
                 </div>
                 <div className={style.card}>
                     <div className={style.img_container}>
-                      <img className={`${style.img} ${index === 2 ? 'w-28 h-28 lg:w-24 lg:h-24 lg:mb-4 xl:w-[5.5rem] xl:h-[5.5rem] xl:mb-4 xl:mt-4' : ''}`} src={service.icon} alt={service.title} loading="lazy" />
+                      <img className={`${style.img} ${index === 2 ? 'w-28 h-28 lg:w-24 lg:h-24 lg:mb-4 xl:w-[17.5rem] xl:h-[14.5rem] xl:mb-4 xl:mt-4' : ''}`} src={service.icon} alt={service.title} loading="lazy" />
                     </div>
                     <p className={style.name}>{service.title}</p>
                     {/* <p className={style.text}>{service.text}</p> */}
