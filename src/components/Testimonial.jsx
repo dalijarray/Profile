@@ -57,9 +57,9 @@ const Testimonial = () => {
   return (
     <div className={style.container}>
       <motion.h1 variants={textVariant()} className={style.title}>
-        Testimonials
+      my old experience in internship
       </motion.h1>
-      <motion.p variants={fadeIn('', '', 0.15, 1)} className={style.subtitle}>What my coding partners say about me -</motion.p>
+      <motion.p variants={fadeIn('', '', 0.15, 1)} className={style.subtitle}>What I do -</motion.p>
       <div className={style.carousel_container}>
         {/* Testimonials card */}
         <motion.div variants={fadeIn('', '', 0.5, 1)} className={style.card_container}>
@@ -72,21 +72,21 @@ const Testimonial = () => {
               className={style.card}
             >
               <div className={style.header}>
-                <motion.div variants={textVariant()}><FaQuoteLeft className={style.openquote} /></motion.div>
+                <motion.div variants={textVariant()}>{testimonial.name}</motion.div>
                 <img className={style.img} src={testimonial.image} alt="profile" />
               </div>
               <motion.p variants={fadeIn('', '', 0.15, 1)} className={style.para}>{testimonial.text}</motion.p>
               <div className={`${style.label} ${style.firstlabel}`}>
                 <motion.p variants={slideIn('left', '', 0.3, 0.75)} className={style.name}>
-                  {testimonial.name}
+                  {/* {testimonial.name} */}
                   {' '}
-                  <span className={style.country}>
+                  {/* <span className={style.country}>
                     (
                     {testimonial.country}
                     )
-                  </span>
+                  </span> */}
                 </motion.p>
-                <motion.abbr variants={slideIn('right', '', 0.3, 0.75)} title="LinkedIn Profile">
+                {/* <motion.abbr variants={slideIn('right', '', 0.3, 0.75)} title="LinkedIn Profile">
                   <a
                     href={testimonial.linkedIn}
                     target="_blank"
@@ -96,27 +96,27 @@ const Testimonial = () => {
                   >
                     <FaLinkedinIn />
                   </a>
-                </motion.abbr>
+                </motion.abbr> */}
               </div>
             </motion.div>
           ))}
         </motion.div>
-        <div className={style.btn_container}>
-          <button
-            className={desktop && number === 1 ? 'hidden' : `${style.button} ${style.prev}`}
-            type="button"
-            onClick={prev}
-          >
-            <PiArrowFatLinesLeftBold />
-          </button>
-          <button
-            className={desktop && number === 2 ? 'hidden' : `${style.button} ${style.next}`}
-            type="button"
-            onClick={next}
-          >
-            <PiArrowFatLinesRightBold />
-          </button>
-        </div>
+          {/* <div className={style.btn_container}>
+            <button
+              className={desktop && number === 1 ? 'hidden' : `${style.button} ${style.prev}`}
+              type="button"
+              onClick={prev}
+            >
+              <PiArrowFatLinesLeftBold />
+            </button>
+            <button
+              className={desktop && number === 2 ? 'hidden' : `${style.button} ${style.next}`}
+              type="button"
+              onClick={next}
+            >
+              <PiArrowFatLinesRightBold />
+            </button>
+          </div> */}
       </div>
     </div>
   );
