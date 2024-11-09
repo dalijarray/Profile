@@ -37,7 +37,7 @@ const Footer = () => (
         </a>
       ))}
     </div>
-    <abbr title="Source Code" className={style.p}>
+    {/* <abbr title="Source Code" className={style.p}>
       <a href="https://github.com/Rhaegar121/Portfolio" target="_blank" className={style.a} rel="noreferrer">
         Brought into being by
         {' '}
@@ -45,7 +45,7 @@ const Footer = () => (
         {' '}
         Kaung Myat Kyaw
       </a>
-    </abbr>
+    </abbr> */}
   </motion.section>
 );
 
