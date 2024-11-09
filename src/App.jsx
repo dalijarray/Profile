@@ -13,17 +13,17 @@ import StarsCanvas from './components/Stars';
 function App() {
   return (
     <ThemeProvider>
-      <div className="relative w-screen h-screen z-10">
+       <div className="relative w-screen h-screen z-10">
         <Home />
         <StarsCanvas />
-      </div>
+      </div> 
       <div className="relative z-0 body">
         <Navbar />
         <About />
         <TechStack />
-        <Service />
-        <Work />
         <div className="relative mt-24 pb-28"><Testimonial /></div>
+        <Work />
+        <Service />
         <div className="contact mb-80"><Contact /></div>
       </div>
       <Footer />
