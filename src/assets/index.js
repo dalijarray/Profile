@@ -46,15 +46,96 @@ import recipeapp6 from './carousels/recipe app screenshot 6.png';
 import trackbuget1 from './carousels/track budget screenshot 1.png';
 import trackbuget2 from './carousels/track budget screenshot 2.png';
 import trackbuget5 from './carousels/track budget screenshot 5.png';
-import carrental1 from './carousels/car rental screenshot 1.png';
-import carrental2 from './carousels/car rental screenshot 2.png';
-import carrental3 from './carousels/car rental screenshot 3.png';
+import chess1 from './carousels/chess1.png';
+import chess2 from './carousels/chess2.png';
+import chess3 from './carousels/chess3.png';
+import chess4 from './carousels/chess4.png';
+import chess5 from './carousels/chess5.png';
+import chess6 from './carousels/chess6.png';
+import chess7 from './carousels/chess7.png';
+import chess from './carousels/chess.png';
+import ecommerce1 from './carousels/ecommerce1.png';
+import ecommerce2 from './carousels/ecommerce2.png';
+import ecommerce3 from './carousels/ecommerce3.png';
+import ecommerce4 from './carousels/ecommerce4.png';
+import ecommerce5 from './carousels/ecommerce5.png';
+import ecommerce6 from './carousels/ecommerce6.png';
+import ecommerce7 from './carousels/ecommerce7.png';
+import ecommerce8 from './carousels/ecommerce8.png';
+import ecommerce9 from './carousels/ecommerce9.png';
+import ecommerce10 from './carousels/ecommerce10.png';
+import ecommerce11 from './carousels/ecommerce11.png';
+import ecommerce12 from './carousels/ecommerce12.png';
+import ecommerce from './carousels/ecommerce.png';
 
+ 
 // services
 import responsive from './services/responsive.gif';
 import react from './services/react.gif';
 import fullstack from './services/fullstack.gif';
+import vanguard from './services/vanguard.jpg';
+import hackatemp from './services/hackatemp.jpg';
+import talker from './services/talker.jpg'
+
+
+
+import etnafes from './services/etnafes.png';
+import Biomediqa from './services/Biomediqa.png';
 
 export {
-  logo, light, dark, facebook, instagram, github, linkedin, twitter, facebook1, instagram1, github1, twitter1, linkedin1, tvshowbox, guesstheword, tictactoe, mathmagician, metricwebapp, spacetravelers, recipeapp, trackbudget, carrental, guesstheword1, guesstheword2, guesstheword3, spacetravelers1, spacetravelers2, spacetravelers3, tictactoe1, tictactoe2, tictactoe3, tvshow1, tvshow2, tvshow3, metricswebapp1, metricswebapp2, recipeapp3, recipeapp4, recipeapp6, trackbuget1, trackbuget2, trackbuget5, carrental1, carrental2, carrental3, responsive, react, fullstack,
+  logo, 
+  light, 
+  dark, 
+  facebook, 
+  instagram, 
+  github, 
+  linkedin, 
+  twitter, 
+  facebook1, 
+  instagram1, 
+  github1, 
+  twitter1, 
+  linkedin1, 
+  tvshowbox, 
+  guesstheword, 
+  tictactoe, 
+  mathmagician, 
+  metricwebapp, 
+  spacetravelers, 
+  recipeapp, 
+  trackbudget, 
+  carrental, 
+  guesstheword1, 
+  guesstheword2, 
+  guesstheword3, 
+  spacetravelers1, 
+  spacetravelers2, 
+  spacetravelers3, 
+  tictactoe1, 
+  tictactoe2, 
+  tictactoe3, 
+  tvshow1, 
+  tvshow2, 
+  tvshow3, 
+  metricswebapp1, 
+  metricswebapp2, 
+  recipeapp3, 
+  recipeapp4, 
+  recipeapp6, 
+  trackbuget1, 
+  trackbuget2, 
+  trackbuget5, 
+  responsive, 
+  react, 
+  fullstack,
+  chess1,
+  chess2,
+  chess3,
+  chess4,
+  chess5,
+  chess6,
+  chess7,
+  chess,ecommerce1 ,ecommerce2 ,ecommerce3 ,ecommerce4 ,ecommerce5 ,ecommerce6 ,ecommerce7 ,ecommerce8 ,ecommerce9 ,ecommerce10 ,ecommerce11 ,ecommerce12, ecommerce,
+  etnafes, Biomediqa,
+  talker , hackatemp , vanguard ,
 };
