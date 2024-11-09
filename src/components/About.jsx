@@ -11,39 +11,36 @@ const About = () => (
     </motion.h1>
     <div className={style.para}>
       <motion.p variants={fadeIn('', '', 0.5, 1)} className={style.text}>
-        Hey there! I&apos;m
+      As a software engineer I&apos;m
         {' '}
         <a
-          href="https://www.linkedin.com/in/kaungmyatkyaw/"
+          href="https://www.linkedin.com/in/jarray-mohamed-ali-088a62262/"
           target="_blank"
           className={style.link}
           rel="noreferrer"
         >
-          Kaung Myat Kyaw (Barry),
+           Mohamed Ali Jarray (Dali),
         </a>
         {' '}
-        a passionate software engineer specializing in React and Ruby on Rails. I thrive on delivering state-of-the-art software solutions. When I&apos;m not coding, you&apos;ll find me exploring the fascinating worlds of Math, Movies, and Music.
-      </motion.p>
+        specialize in solving complex problems and developing robust solutions. With experience in Node.js, Spring Boot, and other technologies like Angular and   PostgreSQL, I have worked on a variety of projects, from backend systems to front-end interfaces. I thrive in challenging environments and am always looking for opportunities to innovate and optimize solutions. Combining strong technical skills with a passion for continuous learning, I aim to create impactful and efficient software.      </motion.p>
       <motion.p variants={fadeIn('', '', 1, 1)} className={style.text}>
-        My journey into software development was anything but ordinary. As a former third-year student at Maritime University, I made a bold decision to drop out and pursue my true passion. That led me to Microverse, a remote software development school, where I honed my skills through pair programming and real-world projects. I completed the boot camp with unwavering dedication, amassing over
-        {' '}
+        Feel free to explore my work on          {' '}
         <a
-          href="https://github.com/Rhaegar121"
+          href="https://github.com/dalijarray"
           target="_blank"
           className={style.link}
           rel="noreferrer"
         >
           {' '}
-          2500+ contributions on GitHub
+          GitHub  
         </a>
         {' '}
-        in just one year. My experience in the Students&apos; Union further sharpened my problem-solving and communication abilities.
-      </motion.p>
+        to see my latest projects and contributions!      </motion.p>
       <motion.p variants={fadeIn('', '', 1.25, 1)} className={style.text}>
         Ready to bring your project to life? Reach out—I&apos;m excited to collaborate!
         {' '}
         <a
-          href="https://drive.google.com/file/d/1tciorak3ZNmMrPPnG_b9eSMnv94fY61_/view?usp=sharing"
+          href="https://drive.google.com/file/d/1VuMSxB2Iwn3XenVR0FYVG2J5K4fXtSXI/view?usp=sharing"
           target="_blank"
           className={style.link}
           rel="noreferrer"
