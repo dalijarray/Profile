@@ -1,5 +1,5 @@
 import {
-  facebook, linkedin, instagram, twitter, github, facebook1, linkedin1, instagram1, twitter1, github1, tvshowbox, guesstheword, tictactoe, mathmagician, metricwebapp, spacetravelers, recipeapp, trackbudget, carrental, guesstheword1, guesstheword2, guesstheword3, spacetravelers1, spacetravelers2, spacetravelers3, tictactoe1, tictactoe2, tictactoe3, tvshow1, tvshow2, tvshow3, metricswebapp1, metricswebapp2, recipeapp3, recipeapp4, recipeapp6, trackbuget1, trackbuget2, trackbuget5, responsive, react, fullstack,chess1, chess2, chess3, chess4, chess5, chess6,chess7,chess,ecommerce1 ,ecommerce2 ,ecommerce3 ,ecommerce4 ,ecommerce5 ,ecommerce6 ,ecommerce7 ,ecommerce8 ,ecommerce9 ,ecommerce10 ,ecommerce11 ,ecommerce12 ,ecommerce ,etnafes ,Biomediqa ,hackatemp, vanguard ,talker
+  facebook, linkedin, instagram, twitter, github, facebook1, linkedin1, instagram1, twitter1, github1, tvshowbox, guesstheword, tictactoe, mathmagician, metricwebapp, spacetravelers, recipeapp, trackbudget, carrental, guesstheword1, guesstheword2, guesstheword3, spacetravelers1, spacetravelers2, spacetravelers3, tictactoe1, tictactoe2, tictactoe3, tvshow1, tvshow2, tvshow3, metricswebapp1, metricswebapp2, recipeapp3, recipeapp4, recipeapp6, trackbuget1, trackbuget2, trackbuget5, responsive, react, fullstack,chess1, chess2, chess3, chess4, chess5, chess6,chess7,chess,ecommerce1 ,ecommerce2 ,ecommerce3 ,ecommerce4 ,ecommerce5 ,ecommerce6 ,ecommerce7 ,ecommerce8 ,ecommerce9 ,ecommerce10 ,ecommerce11 ,ecommerce12 ,ecommerce ,etnafes ,Biomediqa ,hackatemp, vanguard ,talker ,login2,inscription,conversion,binaire
 } from '../assets';
 
 const social = [
@@ -153,6 +153,17 @@ const projects = [
     img: ecommerce,
     carousel: [ecommerce1 ,ecommerce2 ,ecommerce3 ,ecommerce4 ,ecommerce5 ,ecommerce6 ,ecommerce7 ,ecommerce8 ,ecommerce9 ,ecommerce10 ,ecommerce11 ,ecommerce12,],
     source_link: 'https://github.com/dalijarray/ecommerce.git',
+    live_link: '',
+  },
+
+  {
+    id: 3,
+    name: 'Ecommerce App',
+    desc: 'A web application for converting decimal numbers to binary, featuring a real-time visualization of Manchester encoding for each binary code. Designed to simplify understanding of binary concepts and digital communication. Perfect for students and tech enthusiasts exploring data representation.',
+    tech: ['html', 'css', 'javaScript', ],
+    img: binaire,
+    carousel: [login2,inscription,conversion],
+    source_link: '',
     live_link: '',
   },
   // {
