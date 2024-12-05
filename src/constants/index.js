@@ -1,5 +1,5 @@
 import {
-  facebook, linkedin, instagram, twitter, github, facebook1, linkedin1, instagram1, twitter1, github1, tvshowbox, guesstheword, tictactoe, mathmagician, metricwebapp, spacetravelers, recipeapp, trackbudget, carrental, guesstheword1, guesstheword2, guesstheword3, spacetravelers1, spacetravelers2, spacetravelers3, tictactoe1, tictactoe2, tictactoe3, tvshow1, tvshow2, tvshow3, metricswebapp1, metricswebapp2, recipeapp3, recipeapp4, recipeapp6, trackbuget1, trackbuget2, trackbuget5, responsive, react, fullstack,chess1, chess2, chess3, chess4, chess5, chess6,chess7,chess,ecommerce1 ,ecommerce2 ,ecommerce3 ,ecommerce4 ,ecommerce5 ,ecommerce6 ,ecommerce7 ,ecommerce8 ,ecommerce9 ,ecommerce10 ,ecommerce11 ,ecommerce12 ,ecommerce ,etnafes ,Biomediqa ,hackatemp, vanguard ,talker ,login2,inscription,conversion,binaire
+  facebook, linkedin, instagram, twitter, github, facebook1, linkedin1, instagram1, twitter1, github1, tvshowbox, guesstheword, tictactoe, mathmagician, metricwebapp, spacetravelers, recipeapp, trackbudget, carrental, guesstheword1, guesstheword2, guesstheword3, spacetravelers1, spacetravelers2, spacetravelers3, tictactoe1, tictactoe2, tictactoe3, tvshow1, tvshow2, tvshow3, metricswebapp1, metricswebapp2, recipeapp3, recipeapp4, recipeapp6, trackbuget1, trackbuget2, trackbuget5, responsive, react, fullstack,chess1, chess2, chess3, chess4, chess5, chess6,chess7,chess,ecommerce1 ,ecommerce2 ,ecommerce3 ,ecommerce4 ,ecommerce5 ,ecommerce6 ,ecommerce7 ,ecommerce8 ,ecommerce9 ,ecommerce10 ,ecommerce11 ,ecommerce12 ,ecommerce ,etnafes ,Biomediqa ,hackatemp, vanguard ,talker ,login2,inscription,conversion,binaire, customers,account,signup,profile,post,orders,orderlist,offre,login,listuser,listoffre,addoffre,recritement, music1,music2,music3,Music,
 } from '../assets';
 
 const social = [
@@ -158,11 +158,31 @@ const projects = [
 
   {
     id: 3,
-    name: 'Ecommerce App',
+    name: 'PFA 1',
     desc: 'A web application for converting decimal numbers to binary, featuring a real-time visualization of Manchester encoding for each binary code. Designed to simplify understanding of binary concepts and digital communication. Perfect for students and tech enthusiasts exploring data representation.',
     tech: ['html', 'css', 'javaScript', ],
     img: binaire,
     carousel: [login2,inscription,conversion],
+    source_link: '',
+    live_link: '',
+  },
+  {
+    id: 4,
+    name: 'Recruitment app',
+    desc: 'A recruitment application that streamlines the hiring process by allowing companies to post job openings and manage applications efficiently. It features candidate profiles, interview scheduling, and real-time communication tools. The app enhances the recruitment experience for both employers and job seekers.',
+    tech: ['Angular', 'Spring Boot', 'MongoDB', ],
+    img: recritement,
+    carousel: [customers,account,signup,profile,post,orders,orderlist,offre,login,listuser,listoffre,addoffre,],
+    source_link: '',
+    live_link: '',
+  },
+  {
+    id: 5,
+    name: ' music genre classification ',
+    desc: 'A music genre classification app that analyzes songs and automatically categorizes them based on their style and characteristics. It uses machine learning algorithms to identify genres from audio features like tempo, rhythm, and instrumentation. Users can explore a diverse collection of music tailored to their preferred genres.',
+    tech: ['Machine Learning', 'Docker','Flask' ,'Angular',],
+    img: Music,
+    carousel: [ music1,music2,music3],
     source_link: '',
     live_link: '',
   },

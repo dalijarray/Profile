@@ -75,7 +75,30 @@ import inscription from './carousels/inscription.png';
 import  conversion from './carousels/conversion.png';
 import binaire from './carousels/binaire.jpg'
 
- 
+
+import customers from './carousels/customers.jpg';
+import account from './carousels/account.jpg';
+import addoffre from './carousels/addoffre.jpg';
+// import histoy from './carousels/Histoy.jpg';
+import listoffre from './carousels/listoffre.jpg';
+import listuser from './carousels/listuser.jpg';
+import login from './carousels/login.png';
+import offre from './carousels/offre.jpg';
+import orderlist from './carousels/orderlist.jpg';
+import orders from './carousels/orders.jpg';
+import post from './carousels/post.jpg';
+import profile from './carousels/profile.jpg';
+import signup from './carousels/signup.png';
+import recritement from './carousels/recritement.webp'
+// import submit from './carousels/sumbit.jpg';
+  
+
+import music1 from './carousels/music1.png';
+import music2 from './carousels/music2.png';
+import music3 from './carousels/music3.png';
+import Music from './carousels/Music.webp';
+
+
 // services
 import responsive from './services/responsive.gif';
 import react from './services/react.gif';
@@ -144,6 +167,8 @@ export {
   chess7,
   chess,ecommerce1 ,ecommerce2 ,ecommerce3 ,ecommerce4 ,ecommerce5 ,ecommerce6 ,ecommerce7 ,ecommerce8 ,ecommerce9 ,ecommerce10 ,ecommerce11 ,ecommerce12, ecommerce,
   login2, conversion,inscription,binaire,
+  customers,account,signup,profile,post,orders,orderlist,offre,login,listuser,listoffre,addoffre,recritement,
+  music1,music2,music3,Music,
   etnafes, Biomediqa,
   talker , hackatemp , vanguard ,
 };
